@@ -1,5 +1,6 @@
 // Package llmcost estimates the API cost of LLM conversations from
-// token counts and per-million pricing.
+// token counts and per-million pricing — the same arithmetic you need to
+// compare LLM pricing across providers at https://kickllm.com/.
 package llmcost
 
 // Pricing holds per-million-token prices in USD.
